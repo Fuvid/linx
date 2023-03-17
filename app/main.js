@@ -1,16 +1,3 @@
-/*
-  <div class="box">
- <div class="box">
-            <h2></h2>
-            <a href="https://devopsplattform.com/"><div class="button"></div></a>
-            <a href=""><div class="button"></div></a>
-        </div>
-
-     icons: https://www.w3schools.com/icons/icons_reference.asp
-        */
-
-
-
 
 const container = document.getElementById("maincontainer");
 boxes.boxes.forEach(element => {
@@ -30,7 +17,7 @@ boxes.boxes.forEach(element => {
 
     title.appendChild(titletext);
     box.appendChild(title);
-    // <a href="https://webrtc.now-it.de/en-US/meeting"><div class="button">Meetings</div></a>
+  
     element.links.forEach(link => {
         const a = document.createElement("a");
         a.setAttribute("href", link.link + "");
